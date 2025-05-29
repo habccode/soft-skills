@@ -36,4 +36,4 @@ Si deseas saber más sobre mí o colaborar en algún proyecto, no dudes en conta
 
 ¡Gracias por visitar mi página web!
 
-Harby
+## Author: Habccode.
