@@ -361,3 +361,77 @@ main:hover ~ .side-image {
 }
 
 
+/* Estilos para la sección horario */
+section.horario {
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* fondo suave */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  section.horario h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  /* Tabla estilizada */
+  section.horario table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    border-radius: 8px;
+    /* Opcional: agregar borde o sombra */
+    border: 1px solid #d1d5db;
+  }
+  
+  /* Encabezados */
+  section.horario th {
+    background: linear-gradient(90deg, #4CAF50, #66BB6A);
+    color: #fff;
+    padding: 12px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Filas alternas para mejor legibilidad */
+  section.horario tbody tr:nth-child(even) {
+    background-color: #fff;
+  }
+  section.horario tbody tr:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  
+  /* Celdas */
+  section.horario td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Efecto en las celdas al pasar el ratón */
+  section.horario td:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  /* Efecto en toda la fila al pasar el ratón */
+  section.horario tbody tr:hover {
+    background-color: #b2ebf2;
+  }
+  
+  /* Efecto en toda la sección para mayor dinamismo */
+  section.horario:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
